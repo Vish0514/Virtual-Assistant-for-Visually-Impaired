@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation = "vertical"
-    android:background="@color/colorAccent"
+    android:background="@android:color/black"
     android:weightSum="5"
     tools:context=".MainActivity">
 
@@ -17,10 +17,10 @@
 
     <ImageView
         android:id="@+id/homeImg"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="406dp"
+        android:layout_height="match_parent"
         android:layout_centerInParent="true"
-        android:src="@drawable/round_visibility_black_48dp" />
+        android:src="@drawable/logo" />
 
 </RelativeLayout>
 
@@ -47,11 +47,11 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="157dp"
+                    android:layout_height="205dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/round_email_black_48dp" />
+                    android:src="@drawable/message" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -79,11 +79,11 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="146dp"
+                    android:layout_height="205dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/round_call_black_48dp_copy" />
+                    android:src="@drawable/phone" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -111,11 +111,11 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="157dp"
+                    android:layout_height="171dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/round_today_black_48dp_copy" />
+                    android:src="@drawable/battery" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -143,11 +143,11 @@
                 android:layout_height="match_parent">
 
                 <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_width="163dp"
+                    android:layout_height="173dp"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="10dp"
-                    android:src="@drawable/round_add_a_photo_black_48dp_copy" />
+                    android:src="@drawable/cam" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -155,8 +155,8 @@
                     android:layout_alignParentBottom="true"
                     android:layout_centerHorizontal="true"
                     android:layout_marginBottom="50dp"
-                    android:text="Currency Recognition"
                     android:gravity="center_horizontal"
+                    android:text="Recognition"
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </RelativeLayout>

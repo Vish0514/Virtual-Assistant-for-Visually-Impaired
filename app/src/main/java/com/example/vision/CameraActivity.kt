@@ -23,7 +23,7 @@ import kotlinx.android.synthetic.main.camera_activity.*
 import java.io.ByteArrayOutputStream
 import java.util.*
 
-class CameraActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
+class  CameraActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private var lensFacing = CameraX.LensFacing.BACK
     private val TAG = "CameraActivity"
